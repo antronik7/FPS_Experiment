@@ -1,0 +1,34 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "InputLayout",
+            "id": "c242d410-3635-44eb-83bd-0ce9b90b8327",
+            "actions": [
+                {
+                    "name": "ADS",
+                    "type": "Button",
+                    "id": "6ac5cd67-1fd9-45dd-9750-cc69f4ac19f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e4d40f5-c833-4681-a09b-cd5b4b903c9a",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ADS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
